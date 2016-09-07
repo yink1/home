@@ -1,0 +1,28 @@
+
+/*找回密码*/
+.dn {display: none;}
+.mainWrap h3 {font-size: 20px; padding: 15px 0 0 10px;}
+.mainWrap .find {height: 420px; font-size: 14px;}
+.mainWrap .find ul {text-align: left; position: relative;}
+.mainWrap .find ul li {margin-top: 20px;}
+.mainWrap .find ul li label {display: inline-block; width: 345px; text-align: right; margin-right: 15px;}
+.mainWrap .find ul li input {text-indent: 5px; vertical-align: middle;}
+.mainWrap .find ul li .text {height: 30px; width: 240px; font-size: 14px; outline:medium; line-height: 30px\9;border: 1px solid #bdbdbd;} 
+.mainWrap .find ul li .text:focus {border: 1px solid red;}
+.mainWrap .find ul li .verify:focus {border: 1px solid red;}
+.mainWrap .find ul li .verify {width: 125px;height: 30px;font-size: 14px; margin-right: 15px;outline:medium; line-height: 30px\9;border: 1px solid #bdbdbd;}
+.mainWrap .find ul li .button {width: 100px; height: 30px;color: #000;}
+.mainWrap .find .submit {text-align: center; margin-top: 20px;}
+.mainWrap .find .submit .sb-button {cursor: pointer; font-size: 18px; color: #fff; width: 240px; height: 40px; background: #e62222; border-radius: 5px; border: none; }
+.mainWrap .find .submit span {margin-left: 15px;}
+.mainWrap .find .submit a {color: red; font-size: 14px;}
+.mainWrap .find .find-tips {text-align: center; position: absolute; margin: 0; left: 360px; top: -20px;}
+.find-success { margin-left: 360px; height: 200px; line-height: 200px; _margin-top: 100px;}
+.find-success img {vertical-align: -2px;}
+
+
+
+
+
+
+

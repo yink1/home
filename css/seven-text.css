@@ -1,0 +1,32 @@
+
+/*side*/
+.mainWrap { overflow: auto;}
+/*路径*/
+.mainWrap .index { color: #999; padding: 12px 0;}
+.mainWrap .index a { color: #999;}
+/*内容段落*/
+.mainWrap .pack { border: 1px solid #993d4a; border-top: none; background: #fff3f3; line-height: 26px;border-top: 5px solid #e62222;}
+.mainWrap .pack .pack-box { position: relative; _zoom:1; width: 730px;}
+.mainWrap .pack .pack-box h3 {font-size: 18px; text-align: center; height: 60px; line-height: 60px; font-weight: normal; color: #271f1d;}
+.mainWrap .pack .pack-box .riqi {font-size: 12px; color: #999; text-align: right; margin-right: 40px;}
+.mainWrap .pack .pack-box p {/*width: 620px;*/ padding: 0 30px 20px 30px; font-size: 14px; color: #271f1d;}
+.mainWrap .pack .pack-box img {position: absolute; right: -1px; bottom: -1px;}
+/*内容标题*/
+.Content { width: 215px; height: 350px; overflow: auto;border-top: 5px solid #e62222;border: 1px solid #bdbdbd;}
+.Content .h3 {background: #f5f5f5; font-size: 16px;height: 30px; padding-left: 5px; line-height: 30px; font-weight: normal; color: #666;}
+.Content .sp {color: red;margin-left: 10px; font-size:20px;}
+.Content ul li {padding: 3px 5px;background: url(../images/allbg.png) no-repeat 5px center; text-indent: 5px;}
+.Content ul li a em:hover {text-decoration: underline;}
+.Content ul li em {font-size: 14px; display: inline-block; width: 105px; height: 16px; overflow: hidden;}
+.Content ul li span {color: #999; width: 70px; font-size: 12px; line-height: 18px; display: inline-block; height: 18px;}
+/*声明*/
+.statement {background: #F5F5F5; margin-top: 20px; color: #666;}
+.statement .st {width: 100px; margin-left: 10px; font-size: 14px; color: #e62222; margin-top: 20px;}
+.statement .at p {font-size: 12px; margin: 0 10px; line-height: 18px;}
+.statement .at .red { color: #c11a36;}
+
+
+
+
+
+

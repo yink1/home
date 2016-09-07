@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/two-text.css" rel="stylesheet" type="text/css" />
+<link href="css/list.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/layer.js"></script>
+<script type="text/javascript" src="js/cmp.js"></script>
+<title>无限财经</title>
+</head>
+<body>
+<!--topBar begin-->
+<div class="topBar">
+    <div class="mCon">
+        <div class="topcon">
+            <!-- 未登陆 -->
+            <!-- <div class="login">
+                <span><a href="javascript:;" class="loginBtn zhuce" id="btnal">注册</a></span>
+                <span><a href="javascript:;" class="loginBtn denglu" id="btnconf">登录</a></span>
+            </div> -->
+            <!-- 已登录 -->
+            <div class="login">
+                <div class="mine ">
+                    <em>欢迎您,</em>
+                    <div class="account xiala">
+                        <a href="MyCenter-of.html">13812331111&nbsp;</a>
+                        <ul class="hover-account">
+                            <li><a href="MyCenter-dt.html">账户管理</a><br /></li>
+                            <li><a href="MyCenter-answer.html">退出</a></li>
+                        </ul>
+                        
+                    </div> 
+                </div>
+                <div class="message"><a href="seven-text.html"><span>锦囊新消息<span class="red">（<em>1</em>）</span></span></a></div>
+                <div class="mine hover-wddd xiala">
+                    <a href="MyCenter-of.html" class="n">我的订单&nbsp;</a>
+                    <div class="hover-div">
+                        <!-- <div class="div-l">
+                            您有<span>1</span>笔订单未付款,<a class="red" href="wangshang.html">去付款</a>
+                        </div> -->
+                        <ul>
+                            <li><a class="background" href="#">趋势锦囊</a></li>
+                            <li><a class="background" href="">价值锦囊</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mine hover-wdtw xiala">
+                    <a href="MyCenter-ask.html" class="b">我的提问&nbsp;</a>
+                    <ul class="hover-ul">
+                        <li><a class="background" href="MyCenter-ask.html">已回复<span class="red">（1）</span></a><br /></li>
+                        <li><a class="background" href="MyCenter-answer.html">未回复</a></li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                $(function() {
+                    $('.hover-wddd').hover(function() {
+                        $('.hover-div').css("display","block");
+                        $(this).css({
+                            'background-color': '#404040',
+                            'background-image': 'url(images/xiala-1.png)'
+                        });
+                    },function() {
+                        $('.hover-div').css("display","none");
+                        $(this).css({
+                            'background-color': '#313131',
+                            'background-image': 'url(images/xiala.png)'
+                        });
+                    });
+                    $('.hover-wdtw').hover(function() {
+                        $('.hover-ul').css("display","block");
+                        $(this).css({
+                            'background-color': '#404040',
+                            'background-image': 'url(images/xiala-1.png)'
+                        });
+                    },function() {
+                        $('.hover-ul').css("display","none");
+                        $(this).css({
+                            'background-color': '#313131',
+                            'background-image': 'url(images/xiala.png)'
+                        });
+                    });
+                    $('.account').hover(function() {
+                        $('.hover-account').css("display","block");
+                        $(this).css({
+                            'background-color': '#404040',
+                            'background-image': 'url(images/xiala-1.png)'
+                        });
+                    },function() {
+                        $('.hover-account').css("display","none");
+                        $(this).css({
+                            'background-color': '#313131',
+                            'background-image': 'url(images/xiala.png)'
+                        });
+                    });
+                });
+            </script>
+            <script type="text/javascript">
+            $(function(){
+                $('.scan').click(function(event) {
+                    // var that = this;
+                    // $(this).css('background', 'pink');
+                    // setTimeout(function(){
+                    //  $(that).css('background', '#387373');
+                    // }, 1000);
+                    $('.erweima').show();
+                    event.stopPropagation();
+                });
+                $(document).click(function(){
+                    $('.erweima').fadeOut(500);
+                });  
+            });
+            </script>
+            <span class="scan"><img class="erweima"style="display:none" src="images/wuxian.jpg" alt="无限财经二维码" /><a href="javascript:;" class="xiala">扫码关注微信，立即获取牛股&nbsp;</a></span>
+        </div>
+    </div>
+</div>
+<!--topBar end--> 
+<!--head begin-->
+<div class="head">
+    <div class="mCon">
+        <div class="hdcon">
+            <h1><span class="lg"><a href="index.html"><img src="images/logo1.png" alt="上证综研" /></a></span><span><img src="images/logo2.png" alt="无线财经" /></span></h1>
+            <div class="tel">021-80213456</div>
+        </div>
+    </div>
+</div>
+<!--menu begin-->
+<div class="menu"> 
+    <!--mCon begin-->
+    <div class="mCon">
+        <ul>
+            <li class="li-em"><a href="index.html"><em>首页</em></a></li>
+            <li><a href="live.html"><em>股市直播</em></a></li>
+            <li><a href="seven.html"><em>锦囊</em></a></li>
+            <li class="current"><a href="two.html"><em>题材聚焦</em></a></li>
+            <li><a href="four.html"><em>龙虎榜解读</em></a></li>
+            <li><a href="five.html"><em>盘中监控</em></a></li>
+            <li><a href="six.html"><em>融资揭秘</em></a></li>
+            <li><a href="aboutus7.html"><em>关于我们</em></a></li>
+        </ul>
+    </div>
+  <!--mCon end--> 
+</div>
+<div class="mainWrap clearfix">
+    <!-- 左边文本 -->
+    <div class="sdLft">
+        <div class="index"><a href="index.html">首页</a> &gt; <a href="two.html">题材聚焦</a> &gt; <a href="two-text.html">正文</a></div>
+        <h2>习近平李克强对办好冬奥会作出指示 主题投资升温</h2>
+        <ul class="left-ul clearfix">
+            <li class="fl" style="height: 30px;line-height: 30px;"><span>2015-09-15</span> <span>15:04:31</span> <span>来源：北京商报</span></li>
+            <li class="fl ml10 ofh">
+                <div class="bdsharebuttonbox vt" style="width:150px;"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+                <script>
+                window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                </script>
+            </li>
+        </ul>
+        <img src="images/text.png" class="left-img">
+        <div class="left-box">
+            <p>据央视新闻联播消息，中共中央总书记、国家主席、中央军委主席习近平日前对办好北京冬奥会作出重要指示强度，办好2022年北京冬奥会，是我们对国际奥铃匹克大家庭的庄严承诺，也是实施津冀协同发展战略的重要举措。要坚持绿色办奥，提升全社会环境意识、加强环境治理和污染防控，把绿色发展理念贯穿筹办工作始终。坚持共享办奥，积极调动社会力量参与办奥，提高城市管理水平和社会文明程度，加快冰雪运动发展和普及，使广大人民群众受益。坚持开发办奥，借鉴北京奥运会和其他国家办赛经验，弘扬奥林匹克精神，加强中外体育交流，推动东西文明交融，展示中国良好形象。坚持廉洁办奥，严格预算管理，控制办奥成本，强化过程监督，让冬奥会像冰雪一样纯洁干净。要加强组织领导，统筹推进各项工作，确保把北京冬奥会办成一届精彩、非凡、卓越的奥运盛会。
+            与此同时，中共中央政治局党委、国务院总理李克强作出批示指出，筹办2022年冬奥会，对于促进奥林匹克事业发展、进一步提升中国的国际影响力，意义重大。相关地方和部门要按照党中央、国务院部署，把创新、协调、绿色、开发、共享发展理念贯穿筹办全过程，主动对接津冀协同发展战略，有序高效抓好重点设施、重点项目建设，积极借鉴各方经验，广泛动员社会力量，节约用好宝贵资金，确保工程优质安全，把这一届冬奥会办好办精彩，推动冰雪运动普及、体育产业发展、生态环境改善和城市治理水平提升，让更多群众参与体育健身，共享美好生活。
+            申万宏源认为,此次冬奥会申办成功，体育、环保、零售、京津冀主题将长期收益。
+            冰雪运动兴体育：冬奥将提升我国赛事运营水平、推动商业化进程，同时拉动冬季运动基础建设、提升装备生产销售、普及冬季运动培训等。2014索契冬奥投入500亿美元，其中运营成本为70亿美元。明确披露收入有营销和商业赞助收入13亿美元，转播权12.6亿美元，特许商品5亿美元。利润方面，实现运营利润1.43亿美元。以索契为标杆，中国的大型赛事运营和盈利能力有极大的可挖掘空间。另一方面，我们看好冬季运动在中国的中长期发展，据统计，冬奥会可带动3亿人参与到冰雪运动中，形成运动消费习惯，拉动冰雪运动培训、装备销售、旅游度假和周边衍生品。相关标的：华录百纳（与河北打造冰雪嘉年华）、国旅联合（与北京奥铃匹克竞技技术开发公司等签署《第十三届全国冬季运动会市场经营联合开发协议书》）、探路者（冰雪装备龙头，布局冰雪运动）。
+            “冬奥蓝”利环保：申冬奥过程中，北京承诺PM2.5平均浓度2022年会比2012年下降45%，京津冀地区整体环境质量要求进一步提高，我们预计环保投资将继续加大。相关个股：1）大气治理：清晰环境（脱硫脱硝运营成本低）、中电远达（38.500，3.50,10.00%）（脱销催化剂及回收，布局碳交易）；2）环境监测：雪迪龙（38.500,3.50,10.00%）（智</p>
+        </div>
+        <!-- 用户已登录 -->
+        <div class="left-bottom qy_name">
+            <h3>题材个股分析点评</h3>
+            <div class="bottom-box">
+                <h5>上证综研首席分析师揭秘者独家点评</h5>
+                <p>杭环检测2015年1-10月实现营收971.1万元，净利236.8万元，公司对杭环检测15-17年的盈利预测分别400、750和1000万元。随着我国经济发展过程中环境污染问题的日趋严重，环保产品业在国民经济中的地位越来越重要，环境检测业务未来市场空间广阔，将成为公司新的经济增长点。</p>
+            </div>
+        </div>
+    </div>
+    <div class="sdRgt">
+        <ul class="right-ul">
+            <!-- 右上图 -->
+            <li class="right-topImg right-img marg">
+                <img src="images/click.gif">
+            </li>
+            <!-- 右容器-1 -->
+            <li class="border marg">
+                <h2><span class="sp">概</span>念题材监控</h2>
+                <div class="right-box1">
+                    <table border="1" class="list-table">
+                        <tr>
+                            <th style="width:120px;word-break:break-all" class=""><span class="mr7">概念题材</span></th>
+                            <th style="width:50px;word-break:break-all" class=""><span class="mr7">涨跌幅</span></th>
+                            <th style="width:60px;word-break:break-all" class=""><span class="mr7">股票数</span></th>
+                            <th style="width:70px;word-break:break-all" class=""><span class="mr7">领涨股票</span></th>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                        <tr>
+                            <td style="width:120px;word-break:break-all">食品安全食品安全</td>
+                            <td style="width:50px;word-break:break-all" class="textri red"><span class="mr10">12.67%</span></td>
+                            <td style="width:60px;word-break:break-all" class="">9</td>
+                            <td style="width:70px;word-break:break-all" class="">赞宇科技</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <script>
+                $(document).ready(function(){
+                //限制字符个数
+                    $(".xx").each(function(){
+                        var maxwidth=8;
+                        if($(this).text().length>maxwidth){
+                            $(this).text($(this).text().substring(0,maxwidth));
+                            $(this).html($(this).html()+'…');
+                        }
+                    });
+                });
+            </script>
+            <!-- 右容器2 -->
+            <li class="border marg">
+                <h2><span class="sp">重</span>磅推荐</h2>
+                <ul class="right-box2">
+                    <li><a href="#">独家龙虎榜解密 佛塑科技获机构关注</a></li>
+                    <li><a href="#">机器人成为上海科技重点 1股有翻倍潜力</a></li>
+                    <li><a href="#">宗申动力 电动汽车项目属于集团战略项目</a></li>
+                    <li><a href="#">最前指示一年内挖出12只翻倍超级牛股</a></li>
+                    <li><a href="#">涨停分析 房地产接过涨停潮大旗</a></li>
+                </ul>
+
+            </li>
+        </ul>
+        
+    </div>
+</div>
+
+<div id="footer">
+<!-- 页尾 -->
+    <div class="page">
+        <div class="center">
+            <!-- 页尾-上 -->
+            <div class="page-top">
+                <span>本站所载文章、数据仅供参考，使用前请核实，风险自负。</span>
+                <a class="cet" target="_blank" href="http://www.szzy888.com/help/fxjss">
+                    <img src="images/fengxian.png" alt="风险提示" />
+                </a>
+                <em>联系电话：021-50803180</em>
+                <span>证劵投资咨询业务资格证书：ZX0069 </span>
+                <a target="_blank" href="http://www.csrc.gov.cn/pub/zjhpublic/G00306205/201205/t20120517_210251.htm">[证监会查询]</a>
+                <a target="_blank" href="http://person.sac.net.cn/pages/registration/sac-publicity-finish.html?aoiId=199030">[证券业协会查询]</a>
+            </div>
+            <!-- 页尾-下 -->
+            <div class="page-bottom">
+                <p>
+                    公司地址：上海市浦东新区碧波路690号张江微电子港8号楼3楼301-B<em>投诉电话：021-38429864</em><span>Copyright 2006-2016 </span><a href="http://www.szzy888.com/">WWW.SZZY888.COM</a>&nbsp; <span>沪ICP备07015607号</span>
+                </p>
+            </div>
+        </div> 
+    </div>
+</div>
+</body>
+</html>

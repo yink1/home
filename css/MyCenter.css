@@ -1,0 +1,159 @@
+
+/*side*/
+.mainWrap { overflow: auto;}
+.sdLft{width:160px;float:left;}
+.sdRgt{width:780px;float:right;}
+/*左边文本*/
+/*导航共用*/
+.sdLft ul {text-align: center; background: #f5f5f5; font-size: 14px; width: 160px;}
+.sdLft ul li {width: 160px; height: 50px; border: 1px solid #bdbdbd; border-bottom: none;}
+.sdLft ul li a { display: inline-block; width: 160px; height: 50px;}
+.sdLft ul li a:hover {text-decoration: none;}
+.dingdan { background: url(../images/sp.png) -12px 0px !important;margin: 15px 0;}
+.ziliao { background: url(../images/sp.png) no-repeat -36px 0!important; margin: 15px 0; }
+.mima { background: url(../images/sp.png) no-repeat -62px 0 !important; margin: 15px 0; }
+.tiwen { background: url(../images/sp.png) no-repeat -90px 0!important; margin: 15px 0; }
+/*订单导航*/
+.sdLft .left-dingdan .dingdan-span {display:inline-block; width: 12px; height: 20px; background: url(../images/sp.png) 0 0;vertical-align:middle; margin: 15px 0;}
+.sdLft .left-dingdan a:hover .dingdan-span {background: url(../images/sp.png) -12px 0px; }
+/*资料导航*/
+.sdLft .left-ziliao .ziliao-span {display:inline-block; width: 12px; height: 20px; background: url(../images/sp.png) no-repeat -24px 0; margin: 15px 0; vertical-align:middle;}
+.sdLft .left-ziliao a:hover .ziliao-span {background: url(../images/sp.png) no-repeat -36px 0;}
+/*密码导航*/
+.sdLft .left-mima {border-bottom: 1px solid #bdbdbd;}
+.sdLft .left-mima .mima-span {display:inline-block; width: 14px; height: 20px; background: url(../images/sp.png) no-repeat -48px 0; margin: 15px 0; vertical-align:middle;}
+.sdLft .left-mima a:hover .mima-span {background: url(../images/sp.png) no-repeat -62px 0;}
+/*提问导航*/
+.sdLft .left-tiwen .tiwen-span {display:inline-block; width: 14px; height: 20px; background: url(../images/sp.png) no-repeat -76px 0; margin: 15px 0; vertical-align:middle;}
+.sdLft .left-tiwen a:hover .tiwen-span {background: url(../images/sp.png) no-repeat -90px 0;}
+/*右边文本*/
+/*共用样式*/
+.sdRgt h3 { font-size: 18px; padding: 0 0 0 10px;}
+.sdRgt form {font-size: 14px; text-align: right; margin-top: 20px;}
+.sdRgt form ul li {margin-bottom: 20px;	}
+.sdRgt form input {outline:medium; }
+.sdRgt form .text:focus {border: 1px solid red;}
+.sdRgt .submit a { font-size: 18px; display: inline-block; color: #fff; width: 240px; height: 40px; background: url(../images/button.png); text-align: center; line-height: 40px; }
+.sdRgt .submit a:hover {text-decoration: none;}
+/*我的订单*/
+table {border-collapse: collapse;}
+table tr { border-bottom: 1px solid #999; margin: 0; padding: 0; text-align: center;}
+.status-bar {text-indent: 10px; height: 30px; line-height: 30px; background: #f5f5f5; border:1px solid #bdbdbd; color: #666;}
+.status-bar td {border:none;}
+.sdRgt .box1 {background: #f2c8c8; height: 30px; margin: 10px 0 10px 0; font-size: 12px;}
+.sdRgt .box1 ul { background: url(../images/juxing.png) no-repeat left top;}
+.sdRgt .box1 li {display: inline-block; *zoom:1; *display:inline; line-height: 30px; }
+.sdRgt .box1 .li-left { text-align: left; width: 200px; text-indent: 20px; *text-indent: 10px;}
+.sdRgt .box1 .li-right {text-align: right; width: 515px; color: #666;}
+.order-list {margin-top: 10px;}
+.order-list ul {background: #f5f5f5; height: 30px; line-height: 30px; color: #666; border:1px solid #bdbdbd; border-bottom: none;}
+.order-list ul li {margin: 0 10px;}
+.order-list table {text-align: center;border:1px solid #bdbdbd; color: #333;}
+.order-list table tr {height: 80px;border:1px solid #bdbdbd;}
+.order-list table td {border:1px solid #bdbdbd; line-height: 20px;}
+.order-list table dl img { *margin: 0 20px;}
+.order-list dt {margin:4px 20px 0 20px;}
+.order-list dl dd {margin-right: 20px; text-align: left;}
+.order-list dl dd .dd-ri {margin-right: 5px; text-decoration: underline;}
+/*空订单*/
+.sdRgt .box3 {background: url(../images/dingdan.png) no-repeat; height: 200px; width: 260px; margin: 70px auto; }
+.sdRgt .box3 p {height: 43px; line-height: 43px; text-indent: 50px; color: #999;}
+.sdRgt .box3 p a {color: red;}
+/*订单*/
+.sdRgt .order {height: 490px;}
+.sdRgt .order ul,.sdRgt .order ul li {display: inline-block; *zoom:1; *display:inline; }
+.sdRgt .order ul {  border-bottom: 1px solid #bdbdbd; padding:5px 0;}
+.sdRgt .order ul:hover {background: #f5f5f5;}
+.sdRgt .order ul li { display:table-cell;vertical-align:middle;}
+.sdRgt .add {background: #fff !important;}
+.red {color: #c00;}
+.dd {width: 90px; padding-left: 5px;}
+.sj {width: 90px;}
+.mc {width: 180px;}
+.jg {width: 80px;}
+.fw {width: 105px;}
+.zt {width: 90px; *width: 90px;}
+.cz {width: 80px;}
+/*我的资料*/
+.sdRgt .data-form { text-align: left;}
+.data-form .data-tips {position: absolute; margin-left: 217px; margin-top: -20px;}
+.sdRgt .data-form ul li{font-size: 14px;}
+.sdRgt .data-form ul li span {color: red; margin: 0 5px;}
+.sdRgt .data-form ul li input {height: 30px; text-indent: 10px; line-height: 30px; font-size: 14px; vertical-align: middle;}
+.certificates select { color: #333; *margin-bottom: 1px; margin-top:13px;}
+.certificates input {width: 238px; color: #333; vertical-align: bottom !important;}
+.sdRgt form .nickname {text-align: left;}
+.form-name {display: inline-block; width: 210px; text-align: right; margin-right: 8px;}
+.dn {display: none!important;}
+.cuowu {display: inline-block; color: red; text-indent: 20px; *margin: 0 !important; background: url(../images/cuo_1.gif) no-repeat center left;}
+.yi{display: inline-block; color: red; text-indent: 20px; background: url(../images/p13.jpg) no-repeat center left;}
+.yitian {display: inline-block; color: red; text-indent: 20px; background: url(../images/p13.jpg) no-repeat center left;}
+.form-select {margin-left: 146px; margin-right: 8px;}
+.sdRgt .radio {text-align: left;}
+.sdRgt .radio input {margin-left: 10px;}
+.sdRgt .text {border: 1px solid #dbdbdb; width: 240px; height: 30px; font-size: 16px;}
+.sdRgt .auth {width: 180px; margin-right: 14px;}
+.data-submit {margin-left: 220px;}
+.sdRgt .data-button {width: 160px; height: 40px;}
+.sdRgt .birthday {text-align: left;}
+.sdRgt .birthday h6 {font-weight: normal; display: inline; margin-left: 5px; font-size: 16px;}
+.sdRgt .site-1 {height: 25px; text-align: left;}
+.sdRgt .site-1  select {margin:0 12px 0 0;}
+.sdRgt .site-2 {text-align: right;}
+em.red {font-size: 16px; font-family: "SimSun";}
+.data-success {height: 200px; line-height: 200px; _margin-top: 100px; margin-left: 220px; font-size: 16px;}
+.data-success img {vertical-align: -2px;}
+/*修改密码*/
+.sdRgt .password-form {position: relative; text-align: left;}
+.sdRgt .password-form ul li input {height: 30px; width: 240px; font-size: 14px; line-height: 30px\9; vertical-align: middle; text-indent: 10px;}
+.sdRgt .password-form ul li label {display: inline-block; width: 200px; text-align: right; margin-right: 15px;}
+.sdRgt .password-form .password-auth {width: 120px;}
+.sdRgt .password-form .password-button {width: 140px; height: 40px;}
+.sdRgt .password-form  .password-tips {position: absolute; top: -20px; left: 215px;}
+.password-success {height: 200px; line-height: 200px;_margin-top: 100px;  margin-left: 220px; font-size: 16px;}
+.password-success img {vertical-align: -2px;}
+.password-submit {margin-left: 215px;}
+/*我的提问*/
+.sdRgt .click .click-nav {margin-top: 20px; font-size: 14px;}
+.sdRgt .click .click-nav li { cursor:pointer; width: 120px; height: 30px; border: 1px solid #bdbdbd; border-bottom: none; display: inline-block;*zoom:1;*display:inline; text-align: center; line-height: 30px; background: #f5f5f5;}
+.sdRgt .click .click-nav li.add {height: 32px; border-bottom: #fff;  margin-bottom: -1px; vertical-align:bottom}
+.sdRgt .click .click-nav li a {text-decoration: none;}
+.sdRgt .click .click-nav li.add a{color: #e62222;}
+.sdRgt .click .click-nav li .hui a {display: inline-block; width: 120px; height: 30px;}
+.sdRgt .click .click-nav li .wei a {display: inline-block; width: 120px; height: 30px;}
+.sdRgt .click .online-nav li div {color: #333; width: 160px; height: 30px;}
+.sdRgt .right-box-1 .wen { border: 1px solid #bdbdbd;}
+.sdRgt .right-box-1 .wen .dotted {font-size: 12px; height: 40px; line-height: 40px; padding:0 20px; border-bottom: 1px dotted #bdbdbd;}
+.sdRgt .right-box-1 .wen .solid {font-size: 14px;  margin:0 auto; padding: 20px 0;}
+.sdRgt .right-box-1 .wen .solid .div-img { line-height: 60px; margin:0 20px;}
+.sdRgt .right-box-1 .wen .solid p {width: 550px; line-height: 27px; }
+.sdRgt .right-box-1 .wen .solid h6 {margin:0; font-size: 14px; font-weight: normal; margin-bottom: 10px;}
+.sdRgt .right-box-2 .hui{border: 1px solid #bdbdbd;}
+.sdRgt .right-box-2 .hui li { border-bottom: 1px solid #bdbdbd; height: 60px; line-height: 60px; padding-left: 20px; font-size: 14px;}
+.sdRgt .right-box-2 .hui li.botp {border-bottom: none;}
+.sdRgt .right-box-3 .box3img {border:1px solid #dbdbdb; height: 140px;text-align: center;}
+.sdRgt .right-box-2 .kong {border: 1px solid #bdbdbd; text-align: center; padding: 15px 0;}
+.warning {
+	margin-top: 30px;
+	text-align: center;
+}
+.warning_btn {
+	text-align: center;
+	margin-top: 20px;
+}
+.warning_btn a {
+	background: #e62222;
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center; 
+}
+.warning_btn a:hover {
+	text-decoration: none;
+}
+.layui-layer-btn {background: #f5f5f5;}
+.div_orr {color: #333;}
+.layui-layer-hui{height: 48px !important;border: 1px solid red!important;border-top: 5px solid red!important; color: #333!important;}

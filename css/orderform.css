@@ -1,0 +1,46 @@
+
+/*产品信息*/
+.mainWrap { margin-top: 20px; }
+.mainWrap .product {background: #f1fdf1; width: 100%; border-top: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb;}
+.mainWrap h3 {display: inline-block;*zoom:1;*display:inline; font-size: 20px; width: 140px; text-align: center; margin-top: 15px;}
+.mainWrap .product .orderform { margin-left: 50px;}
+.mainWrap .product .orderform img {margin: 10px 0 0 0;}
+.mainWrap .product .orderform ul { color: #999;}
+.mainWrap .product .orderform ul li {display: inline-block;*zoom:1;*display:inline; width: 225px; }
+.mainWrap .product .orderform .gfp{color: #36be2f;}
+.mainWrap .product .orderform .hou { width: 70px;}
+.mainWrap .product .auto {width: 910px; margin: 0 auto;}
+.mainWrap .product .title {color: #999;  border-bottom: 1px solid #dbdbdb;}
+.mainWrap .product .auto ul li{display: inline-block ;*zoom:1;*display:inline;margin-left: 150px;line-height: 40px; height: 40px;}
+.mainWrap .product .auto ul .body-product {width: 250px;}
+/*用户信息*/
+.mainWrap .user { border-bottom: 1px solid #bdbdbd; padding-bottom: 30px;}
+.mainWrap .user form { width: 500px;}
+.mainWrap .user form ul {text-align: right; font-size: 18px;}
+.mainWrap .user form ul li {height: 40px; line-height: 40px; margin-top: 20px;}
+.mainWrap .user form ul li input { width: 360px; height: 40px; line-height: 40px; text-indent: 10px; font-size: 18px; outline:medium; }
+.mainWrap .user form ul li .text:focus {background: #f5f5f5; }
+/*付款金额*/
+.mainWrap .sum { width: 670px; margin: 20px auto;}
+.mainWrap .sum label a{color: #999;}
+.labox {margin-left: 25px;}
+.mainWrap .submit {text-align: center; margin-top: 40px;}
+.toggle-add2 {background: url(../images/toggle-add2.gif) !important;}
+.mainWrap .submit a { font-size: 14px; display: inline-block; color: #fff; width: 180px; height: 30px; background: url(../images/button-1.png); text-align: center; line-height: 30px; }
+.mainWrap .submit a:hover {text-decoration: none;}
+.dianhua div {margin-top: 5px;}
+.placeholder {height: 120px;}
+/*风险书弹窗*/
+.fengxian { background: #f5f5f5;overflow: auto}
+.fengxian .fengxian-box {width: 760px; height: 450px; background: #fff; margin: 0 auto; overflow: auto;}
+.fengxian .fengxian-box h3 {font-size: 20px; color: #d82824; text-align: center;}
+.fengxian .fengxian-box ul { color: #323333; width: 700px; margin: 0 auto;}
+.fengxian .fengxian-box ul .li-right {text-align: right; margin: 10px 0; font-weight: bold;}
+.fengxian .fengxian-box ul .li-right span {display: inline-block; width: 182px; text-align: left;}
+.fengxian .fengxian-box ul li p {line-height: 30px;}
+.fengxian .fengxian-box ul .li-right em {display: inline-block; width: 50px; border-bottom: 1px solid #000}
+#layui-layer1 {border: 1px solid red; border-top: 5px solid red;}
+.fengxian-but {width: 240px; height: 40px; text-align: center; line-height: 40px;  font-size: 18px; margin: 20px auto;}
+.fengxian-but a {color: #fff; text-decoration: none;width: 240px; height: 40px; background: #e62222; border-radius: 5px; display: inline-block;}
+.fengxian-but a:hover {color: #fff; text-decoration: none;}
+.layui-layer-content {background: #f5f5f5;}

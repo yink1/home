@@ -1,0 +1,37 @@
+.mainWrap { overflow: auto;}
+.sdLft{width:600px;float:left;}
+.sdRgt{width:340px;float:right;}
+/*左边文本*/
+/*路径*/
+.sdLft .index { color: #999; padding: 12px 0; border-bottom: 5px solid red;}
+.sdLft .index a { color: #999;}
+/*列表*/
+.sdLft .lft-five li {border-bottom: 1px solid #bdbdbd; padding: 15px 10px;}
+.sdLft .lft-five li:hover {background: #f5f5f5;}
+.sdLft .lft-five li h3 {font-size: 18px; width: 580px; height: 26px; line-height: 26px; overflow: hidden;}
+.sdLft .lft-five li p {line-height: 20px; font-size: 14px; height: 40px; overflow: hidden; font-size: 12px; margin-top: 5px;}
+.sdLft .lft-five li p a { color: #666;}
+.sdLft .float, .sdLft .lft-five li span {color: #999;}
+/*右边文本*/
+.sdRgt .right-ul .marg {margin-bottom: 20px; }
+.sdRgt .border {border: 1px solid #bdbdbd; border-top: none; }
+/*右图*/
+.sdRgt .right-topImg{padding-top: 40px;}
+.right-img{ border: none;}
+/*右容器-1*/
+.textri {text-align: right;}
+.sdRgt .right-box1 {margin: 15px 0}
+.sp {color: red;margin-left: 10px; font-size:20px;}
+.sdRgt h2 {font-size: 20px; border-top: 5px solid red;padding-top: 5px;}
+.sdRgt .red {color: red;}
+.sdRgt .blue{color: #1e338e}
+.sdRgt .statement {margin: 0 0 10px 20px; width: 300px; text-align: left;}
+.sdRgt .statement p {line-height: 25px; font-size: 14px;}
+.sdRgt .statement form {margin-top: 15px;}
+.sdRgt .statement form input {width: 190px; height: 27px; font-size: 14px; text-indent: 5px; *float: left; line-height: 27px\9;}
+.sdRgt .statement form button {width: 80px; height: 30px; text-align: center; margin-left: 18px; *float: left;}
+.p-ri {text-align: right; font-size: 12px; margin: 12px 20px 10px 0; color: #999;}
+/* 判断手机号样式*/
+#form {position:relative;}
+.red1 {color: #CD2626;font-size: 12px;text-align: center;margin-bottom: 5px;position: absolute;display: none;top:35px;left: 0px;_left:-290px;}
+

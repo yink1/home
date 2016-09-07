@@ -1,0 +1,56 @@
+
+/*side*/
+.mainWrap { overflow: auto;}
+.sdLft{width:600px;float:left;}
+.sdRgt{width:340px;float:right;}
+/*左边文本*/
+/*路径*/
+.sdLft .index { color: #999; padding: 12px 0; border-bottom: 5px solid red;}
+.sdLft .index a {color: #999;}
+/*左边文本*/
+/*列表*/
+.h2 {border-top: 5px solid red;background: #f5f5f5; font-size: 20px;height: 40px;}
+.sp {color: red;margin-left: 10px; font-size:20px;}
+.sdLft .left-ul li {padding: 15px 10px;}
+.li-0 { border-bottom: 1px solid #dbdbdb;}
+.li-0:hover {background: #f5f5f5;}
+.li-0 img {float: left;margin: 0 20px 0 0; width: 180px; height: 120px;}
+.li-0-right {display: inline;}
+.li-0-right h3 {font-size: 18px; display: inline-block; width: 350px; height: 26px; overflow: hidden;}
+.li-0-right h3:hover {text-decoration: underline;}
+.li-0-right p { font-size: 14px; line-height: 20px; height: 40px; overflow: hidden; font-size: 12px; margin-top: 5px;}
+.li-0-right p a{color: #666;}
+.li-0-right span {color: #999;font-size: 12px; margin-top: 5px;}
+.li-0 .li-0-right .ri {text-align: right; margin-top: 10px; font-weight: bold;}
+.li-0 .li-0-right p.ri {height: 20px; }
+.li-0 .li-0-right p.ri a {font-family: 'SimSun' }
+.jinpng img {width: 600px; height: 160px;}
+.bfc {height: 18px;}
+/*右边文本*/
+.sdRgt .right-ul .marg {margin-bottom: 20px; }
+.sdRgt .border {border: 1px solid #bdbdbd;  border-top: none;}
+/*右图*/
+.sdRgt .right-topImg{padding-top: 40px;}
+.right-img{ border: none;}
+/*右容器-1*/
+.textri {text-align: right;}
+.sp {color: red;margin-left: 10px; font-size:20px;}
+.sdRgt h2 {font-size: 20px; border-top: 5px solid red;padding-top: 5px;}
+.sdRgt .right-box1 {padding: 15px 0 0 0; text-align: center; color: #333;}
+.sdRgt .bagd-1 { width: 110px!important; height: 30px; overflow: hidden; text-align: left; margin-left: 10px; }
+.sdRgt .right-box1 li ul li a:hover {color: red;}
+.sdRgt .red {color: red;}
+.sdRgt .blue {color: #1e338e; width: 90px !important; height: 30px;  }
+.sdRgt .blue a:hover {color: red;}
+.green {color: #093;}
+.p-ri {text-align: right; font-size: 12px; margin: 12px 20px 10px 0; color: #999;}
+/*右容器-2*/
+.sdRgt .right-box2 {padding: 15px;}
+.sdRgt .right-box2 li {background: url(../images/triangle.png) no-repeat left center ;line-height: 30px;text-indent: 20px; height: 30px; overflow: hidden;}
+/*投资着保护页面样式*/
+.dib {display: inline-block;}
+.protect-list {border-bottom: 1px dashed #bdbdbd;}
+.protect-list_s {border: none !important;}
+.protect-list li {height: 30px; line-height: 24px;}
+.protect-list span {color: #666;}
+.protect-list_div {width: 460px; font-size: 14px; height: 30px; overflow: hidden; padding-right: 10px;}

@@ -1,0 +1,111 @@
+
+/*产品信息*/
+.mainWrap { margin-top: 20px; }
+.mainWrap .product {background: #f1fdf1; width: 100%; height: 130px; border-top: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb;}
+.mainWrap h3 {display: inline-block;*zoom:1;*display:inline; font-size: 20px; width: 140px; text-align: center; margin-top: 15px;}
+.mainWrap .product .orderform { margin-left: 50px;}
+.mainWrap .product .orderform img {margin: 10px 0 0 0;}
+.mainWrap .product .orderform ul { color: #999;}
+.mainWrap .product .orderform ul li {display: inline-block;*zoom:1;*display:inline; width: 225px; }
+.mainWrap .product .orderform .gfp{color: #36be2f;}
+.mainWrap .product .orderform .hou {width: 70px;}
+.mainWrap .product .affirm { height: 78px;}
+.mainWrap .product .affirm ul li{display: inline-block;*zoom:1;*display:inline;}
+.mainWrap .product .affirm .affirm-left { margin:10px 0 0 190px; line-height: 18px; font-size: 12px;}
+.mainWrap .product .affirm .tow {margin:10px 0 0 30px; font-size: 12px; line-height: 18px;}
+.mainWrap .product .affirm .cheng {padding-top: 18px; margin-left: 190px;}
+.mainWrap .product .affirm .affirm-right {margin:10px 0 0 400px;}
+.mainWrap .product .affirm .affirm-right span { font-size: 40px; font-weight: bold;}
+.placeholder {height: 260px;}
+.continue a{ color: #082686; }
+.continue div {margin-top: 10px;}
+.fengbi {margin-right: 80px; margin-top: 10px;}
+.fengbi a {text-decoration: underline; color: #1e338e;}
+.fengbi a:hover {color: red;}
+/*在线支付*/
+.paid-box {height: 125px; border-top: 1px solid #e68a8a; border-bottom: 1px solid #e68a8a; background: #fff2f2; margin-top: 10px; }
+.money .confirm { margin:15px 0 0 30px;}
+.paid-p {margin-bottom: 15px;}
+.money .confirm input {width: 80px; height: 20px; font-size: 14px; text-indent: 10px;}   
+.money .confirm button { background: url(../images/button-1.png); border: none; width: 180px; height: 30px; color: #fff; font-size: 14px; cursor: pointer; margin-top: 10px;}
+.money .remind {width: 335px; margin:15px 20px 0 0;}
+.money .remind h5 {margin: 0; padding: 0; font-size: 12px;}
+.money .remind p {line-height: 18px;}
+.money .remind .ash {color: #999; margin: 5px 0;}
+.blue {color: #7f9ed6;}
+/*支付成功*/
+.ess-btn {background: url(../images/ess-btn.png) no-repeat; width: 80px; height: 30px; border:none; margin: 0 20px; color: #fff; display: inline-block; font-size: 14px; line-height: 30px;}
+.ess-btn:hover {color: #fff; text-decoration: none;}
+/*在线支付*/
+/*网上银行支付*/
+.mainWrap .online .online-nav {margin-top: 10px;}
+.mainWrap .online .online-nav li {width: 100px; height: 30px; border: 1px solid #bdbdbd; border-bottom: none; display: inline-block;*zoom:1;*display:inline; text-align: center; line-height: 30px; background: #f5f5f5;}
+.mainWrap .online .online-nav li a {color: #333; display: inline-block;width: 100px; height: 30px;  }
+.mainWrap .online .online-nav li a:hover {text-decoration: none;}
+.mainWrap .online .online-nav li.add {background: #fff!important; height: 32px; border-bottom: #fff;  margin-bottom: -1px; vertical-align:bottom}
+.mainWrap .online .online-nav li:hover {background: #fff;}
+.mainWrap .online .bank { border: 1px solid #bdbdbd; padding-bottom: 15px; }
+.mainWrap .online .bank-a {height: 100%;}
+.mainWrap .online .bank .bank-p {margin-top: 15px;}
+.mainWrap .online .bank p {text-indent: 32px; line-height: 18px; color: #999;}
+.mainWrap .online .bank h4 {font-weight: normal; text-indent: 16px; margin-top: 10px;}
+.mainWrap .online .bank ul li {margin:15px 0 0 20px; display: inline-block;*zoom:1;*display:inline; text-align: center; }
+.mainWrap .online .bank ul li label {width: 126px; height: 36px; margin-left: 5px; border: 1px solid #bdbdbd; display: inline-block; text-indent: -9999px; cursor:pointer;}
+.mainWrap .online .bank ul li input {cursor:pointer; vertical-align:-10px; *vertical-align:10px;}
+.mainWrap .online .bank .boc {background: url(../images/zhifu.jpg) 0 -288px;}
+.mainWrap .online .bank .icbc {background: url(../images/zhifu.jpg) 0 -3312px;}
+.mainWrap .online .bank .abc {background: url(../images/zhifu.jpg) 0 0;}
+.mainWrap .online .bank .ccb {background: url(../images/zhifu.jpg) 0 -1008px;}
+.mainWrap .online .bank .cmb {background: url(../images/zhifu.jpg) 0 -1296px;}
+.mainWrap .online .bank .spdb {background: url(../images/zhifu.jpg) 0 -5328px;}
+.mainWrap .online .bank .cib {background: url(../images/zhifu.jpg) 0 -1224px;}
+.mainWrap .online .bank .citic {background: url(../images/zhifu.jpg) 0 -1260px;}
+.mainWrap .online .bank .ceb {background: url(../images/zhifu.jpg) 0 -1152px;}
+.mainWrap .online .bank .gdb {background: url(../images/zhifu.jpg) 0 -2268px;}
+.mainWrap .online .bank .pab {background: url(../images/zhifu.jpg) 0 -5292px;}
+.mainWrap .online .bank .hxb {background: url(../images/zhifu.jpg) 0 -3240px;}
+.mainWrap .online .bank .cmbc {background: url(../images/zhifu.jpg) 0 -1332px;}
+.mainWrap .online .bank .bos {background: url(../images/zhifu.jpg) 0 -5148px;}
+.mainWrap .online .bank .bob {background: url(../images/zhifu.jpg) 0 -216px;}
+.mainWrap .online .bank .postgc {background: url(../images/zhifu.jpg) 0 -4716px;}
+.mainWrap .online .bank .comm {background: url(../images/zhifu.jpg) 0 -1368px;}
+ .mainWrap .online .bank .njcb {background: url(../images/zhifu.jpg) 0 -4500px;}
+.mainWrap .online .bank .nbcb {background: url(../images/zhifu.jpg) 0 -4284px;}
+ .mainWrap .online .bank .srcb {background: url(../images/zhifu.jpg) 0 -5185px;}
+.mainWrap .online .bank .bea {background: url(../images/zhifu.jpg) 0 -2880px;}
+.mainWrap .online .bank .sdb {background: url(../images/sf.jpg)}
+.mainWrap .online .bank .submit {text-align: center; margin-top: 30px;}
+.mainWrap .online .bank .submit a { font-size: 18px; display: inline-block; color: #fff; width: 240px; height: 40px; background: url(../images/button.png); text-align: center; line-height: 40px; }
+.mainWrap .online .bank .submit a:hover {text-decoration: none;}
+/*汇款支付*/
+.mainWrap .bank {border: 1px solid #bdbdbd;}
+.mainWrap .bank .mat {margin-top: 15px;}
+.mainWrap .bank .step {width: 900px; height: 80px; background: url(../images/juxing1.png) no-repeat; margin: 0 auto; }
+.mainWrap .bank .step .step-ul li {display: inline-block;*zoom:1;*display:inline; margin: 20px 0 0 0;}
+.mainWrap .bank .step .one {width: 300px;}
+.mainWrap .bank .step .two {width: 300px;}
+.mainWrap .bank .step .three {width: 290px;}
+.mainWrap .bank .step .step-ul li span {font-size: 30px; margin-right: 10px;}
+.mainWrap .bank .step .step-p { display: inline-block;*zoom:1;*display:inline; }
+.mainWrap .bank .info .info-ul { height: 60px; line-height: 60px; width: 700px; font-size: 12px;  border-bottom: 1px solid #dbdbdb; margin-left: 120px; }
+.mainWrap .bank .info .info-ul li {margin-top: 10px;}
+.mainWrap .bank .notice .notice-ul {margin:15px 0 10px 120px;}
+.mainWrap .bank .notice .notice-ul li {margin-top: 5px;}
+.mainWrap .bank .notice .notice-ul .red {color: red;}
+/*支付弹窗*/
+#layui-layer1 {border: 1px solid red;border-top: 5px solid red;}
+.center-1 h2 {text-align: center; color: red; font-size: 18px; padding-top: 10px;}
+.center-1 .cpm-1 {margin-left: 20px;}
+.center-1 p {color:#1e338e; font-size: 16px; width: 400px; height: 40px; line-height: 40px; text-align: center;}
+.center-1 ul {height: 30px; width: 400px;}
+.center-1 ul li {display: inline-block; *zoom:1; *display:inline; margin-left:20px; font-size: 14px;}
+.center-1 ul .zhifu-1 {font-size: 16px;}
+.center-1 ul li a {color: red; text-decoration: none;}
+.center-1 ul li a:hover {text-decoration: underline;}
+/*支付弹窗*/
+.kefu-box {width: 400px; margin: 0 auto;}
+.kefu-box h5 {font-size: 18px; margin: 0; height: 40px; line-height: 40px;}
+.kefu-box p {font-size: 14px; margin: 0; height: 40px; line-height: 40px; border-top: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb;}
+.layui-layer-btn {background: #f5f5f5;}
+/*限额弹窗*/
+.quota {overflow: auto; height: 440px; width: 718px; margin: 0 auto;}

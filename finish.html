@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/finish.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/layer.js"></script>
+<script type="text/javascript" src="js/cmp.js"></script>
+<title>订单信息_无限财经_上证综研</title>
+</head>
+<body>
+<!--topBar begin-->
+<div class="topBar">
+    <div class="mCon">
+        <div class="topcon">
+            <!-- 未登陆 -->
+            <!-- <div class="login">
+                <span><a href="javascript:;" class="loginBtn zhuce" id="btnal">注册</a></span>
+                <span><a href="javascript:;" class="loginBtn denglu" id="btnconf">登录</a></span>
+            </div> -->
+            <!-- 已登录 -->
+            <div class="login">
+                <div class="mine ">
+                    <em>欢迎您,</em>
+                    <div class="account xiala">
+                        <a href="MyCenter-of.html">13812331111&nbsp;</a>
+                        <ul class="hover-account">
+                            <li><a href="MyCenter-dt.html">账户管理</a><br /></li>
+                            <li><a href="MyCenter-answer.html">退出</a></li>
+                        </ul>
+                        
+                    </div> 
+                </div>
+                <div class="message"><a href="seven-text.html"><span>锦囊新消息<span class="red">（<em>1</em>）</span></span></a></div>
+                <div class="mine hover-wddd xiala">
+                    <a href="MyCenter-of.html" class="n">我的订单&nbsp;</a>
+                    <div class="hover-div">
+                        <!-- <div class="div-l">
+                            您有<span>1</span>笔订单未付款,<a class="red" href="wangshang.html">去付款</a>
+                        </div> -->
+                        <ul>
+                            <li><a class="background" href="#">趋势锦囊</a></li>
+                            <li><a class="background" href="">价值锦囊</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mine hover-wdtw xiala">
+                    <a href="MyCenter-ask.html" class="b">我的提问&nbsp;</a>
+                    <ul class="hover-ul">
+                        <li><a class="background" href="MyCenter-ask.html">已回复<span class="red">（1）</span></a><br /></li>
+                        <li><a class="background" href="MyCenter-answer.html">未回复</a></li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                $(function() {
+                    $('.hover-wddd').hover(function() {
+                        $('.hover-div').css("display","block");
+                        $(this).css({
+                            'background-color': '#404040',
+                            'background-image': 'url(images/xiala-1.png)'
+                        });
+                    },function() {
+                        $('.hover-div').css("display","none");
+                        $(this).css({
+                            'background-color': '#313131',
+                            'background-image': 'url(images/xiala.png)'
+                        });
+                    });
+                    $('.hover-wdtw').hover(function() {
+                        $('.hover-ul').css("display","block");
+                        $(this).css({
+                            'background-color': '#404040',
+                            'background-image': 'url(images/xiala-1.png)'
+                        });
+                    },function() {
+                        $('.hover-ul').css("display","none");
+                        $(this).css({
+                            'background-color': '#313131',
+                            'background-image': 'url(images/xiala.png)'
+                        });
+                    });
+                    $('.account').hover(function() {
+                        $('.hover-account').css("display","block");
+                        $(this).css({
+                            'background-color': '#404040',
+                            'background-image': 'url(images/xiala-1.png)'
+                        });
+                    },function() {
+                        $('.hover-account').css("display","none");
+                        $(this).css({
+                            'background-color': '#313131',
+                            'background-image': 'url(images/xiala.png)'
+                        });
+                    });
+                });
+            </script>
+            <script type="text/javascript">
+            $(function(){
+                $('.scan').click(function(event) {
+                    // var that = this;
+                    // $(this).css('background', 'pink');
+                    // setTimeout(function(){
+                    //  $(that).css('background', '#387373');
+                    // }, 1000);
+                    $('.erweima').show();
+                    event.stopPropagation();
+                });
+                $(document).click(function(){
+                    $('.erweima').fadeOut(500);
+                });  
+            });
+            </script>
+            <span class="scan"><img class="erweima"style="display:none" src="images/wuxian.jpg" alt="无限财经二维码" /><a href="javascript:;" class="xiala">扫码关注微信，立即获取牛股&nbsp;</a></span>
+        </div>
+    </div>
+</div>
+<!--topBar end--> 
+<!--head begin-->
+<div class="head">
+    <div class="mCon">
+        <div class="hdcon">
+            <h1><span class="lg"><a href="index.html"><img src="images/logo1.png" alt="上证综研" /></a></span><span><img src="images/logo2.png" alt="无线财经" /></span></h1>
+            <div class="tel">021-80213456</div>
+        </div>
+    </div>
+</div>
+<div class="mainWrap">
+    <div class="of">
+        <div class="product">
+            <div class="mCon">
+                <div class="clearfix">
+                    <h3 class="fl">订单信息</h3>
+                    <div class="orderform fl">
+                        <img  src="images/progress bar-3.png">
+                        <ul>
+                            <li class="gfp">确认订单</li>
+                            <li class="gfp">在线支付</li>
+                            <li class="hou gfp">购买成功</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="auto">
+                <ul class="title">
+                    <li class="body-product">产品名称</li>
+                    <li>价格</li>
+                    <li>服务期限</li>
+                </ul>
+                <ul>
+                    <li class="body-product">财富风向标铂金版（半年版）</li>
+                    <li>10,000</li>
+                    <li>6个月</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="split">
+        <h3>订单跟踪</h3>
+        <table>
+            <tr>
+                <td style="width:130px;">2016-02-28 13:51:59</td>
+                <td style="width:250px;">您通过****银行支付了<span>4000.00</span>元</td>
+            </tr>
+            <tr>
+                <td style="width:130px;">2016-02-28 13:51:59</td>
+                <td style="width:250px;">您通过****银行支付了<span>4000.00</span>元</td>
+            </tr>
+            <tr>
+                <td style="width:130px;">2016-02-28 13:51:59</td>
+                <td style="width:250px;">您通过****银行支付了<span>4000.00</span>元</td>
+        </table>
+    </div>
+</div>
+<div class="placeholder"></div>
+
+<div id="footer">
+<!-- 页尾 -->
+    <div class="page">
+        <div class="center">
+            <!-- 页尾-上 -->
+            <div class="page-top">
+                <span>本站所载文章、数据仅供参考，使用前请核实，风险自负。</span>
+                <a class="cet" target="_blank" href="http://www.szzy888.com/help/fxjss">
+                    <img src="images/fengxian.png" alt="风险提示" />
+                </a>
+                <em>联系电话：021-50803180</em>
+                <span>证劵投资咨询业务资格证书：ZX0069 </span>
+                <a target="_blank" href="http://www.csrc.gov.cn/pub/zjhpublic/G00306205/201205/t20120517_210251.htm">[证监会查询]</a>
+                <a target="_blank" href="http://person.sac.net.cn/pages/registration/sac-publicity-finish.html?aoiId=199030">[证券业协会查询]</a>
+            </div>
+            <!-- 页尾-下 -->
+            <div class="page-bottom">
+                <p>
+                    公司地址：上海市浦东新区碧波路690号张江微电子港8号楼3楼301-B<em>投诉电话：021-38429864</em><span>Copyright 2006-2016 </span><a href="http://www.szzy888.com/">WWW.SZZY888.COM</a>&nbsp; <span>沪ICP备07015607号</span>
+                </p>
+            </div>
+        </div> 
+    </div>
+</div>
+</body>
+</html>

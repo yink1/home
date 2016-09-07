@@ -1,0 +1,116 @@
+html { overflow-x:hidden; }
+/*side*/
+.mainWrap { overflow: auto;}
+/*路径*/
+.mainWrap .index { color: #999; padding: 12px 0; border-bottom: 5px solid #e62222;}
+.mainWrap .index a { color: #999;}
+/*切换*/
+.switch {margin-top: 15px; height: 40px;}
+.switch li{ display: inline-block; *zoom:1; *display:inline; width: 120px; height: 40px;text-align: center;cursor:pointer; }
+.switch li div a{ display: inline-block; height: 40px; width: 120px;}
+.tab1 {background: url(../images/tab1.png) no-repeat;}
+.tab2 {background: url(../images/tab2.png) no-repeat;}
+.tab1-a {background: url(../images/tab1-a.png) no-repeat;}
+.tab2-a {background: url(../images/tab2-a.png) no-repeat;}
+/*上图*/
+.mainWrap .top {width: 960px; height: 520px; background: url(../images/poster1.jpg);}
+.mainWrap .top-1 {height: 370px; position: relative; font-size: 16px;  }
+.mainWrap .top-1 .top-p {color: #fbb3a7;height: 200px; width: 435px; position: absolute; right: 0px; bottom: 0; font-family: '黑体'; margin-right: 42px; line-height: 28px;}
+.mainWrap .top-1 .top-p p {text-indent: 20px;}
+.mainWrap .top-2 { width: 500px; text-align: center;}
+.mainWrap .jiage {font-size: 22px; color: #fcdfde; }
+.mainWrap .jiage span {font-size: 30px;}
+.mainWrap .top .top-2 .goumai a {background: url(../images/btn-li.jpg) no-repeat;color: #fff; width: 339px;height:52px; display: inline-block; *display:block; line-height: 52px; font-size: 20px; margin-top: 30px; }
+.mainWrap a:hover {text-decoration: none;}
+/*下图*/
+.mainWrap .bottom {width: 960px; height: 520px; background: url(../images/poster2.jpg);}
+.mainWrap .bottom .jiage {color: #afccff; }
+.mainWrap .top-1 .bottom-p {height: 180px; width: 435px; position: absolute; left: 40px; bottom: 0; font-family: '黑体'; margin-right: 42px; line-height: 28px; color: #afccff;}
+.mainWrap .top-1 .bottom-p p {text-indent: 20px;}
+.mainWrap .bottom .liji a {background: url(../images/btn-ji.jpg) no-repeat;color: #fff; width: 339px;height:52px; display: inline-block;  *display:block; line-height: 52px; font-size: 20px; margin-top: 30px; }
+/*投资服务书弹窗*/
+/*.iframe { overflow: hidden; }*/
+.layui-layer-content {background: #f5f5f5;}
+.touzi { background: #f5f5f5;}
+.touzi .touzi-box {background: #fff; margin: 0 auto;}
+.touzi .touzi-box h3 {font-size: 20px; color: #d82824; text-align: center;}
+.touzi .touzi-box ul { color: #323333; width: 700px; margin: 0 auto; z-index: 1;}
+.touzi .touzi-box ul .li-right {float: right; margin: 10px 0;}
+.touzi .touzi-box ul .li-right span {display: inline-block; width: 182px;}
+.touzi .touzi-box ul li p {line-height: 18px;}
+.touzi .touzi-box ul li h5 {font-size: 14px; margin:5px 0;}
+.touzi .touzi-box ul li a {color: #3A5FCD;}
+.touzi .touzi-box ul em {display: inline-block; padding: 0 10px; border-bottom: 1px solid #000;}
+.touzi .touzi-box ul .li-left { float: left;}
+#layui-layer1 {border: 1px solid red; border-top: 5px solid red; background: #f5f5f5 ;}
+#jp-container {width: 760px;}
+.zhang {background: url(../images/zhang.gif) 78px no-repeat; height: 151px;display: inline;}
+.zhang p {margin-top: 20px;}
+ .touzi .touzi-box form {height: 200px;}
+.touzi .touzi-box .jia {font-size: 12px;  margin-top: 20px; *margin-top: 0; display: inline; color: #333; width: 300px; position:relative; ;}
+.touzi .touzi-box .jia input {*vertical-align: 0px;} 
+.touzi .touzi-box form input { height: 20px; font-size: 16px; line-height: 20px; width:150px; } 
+.form_box { margin-right: 40px; position: relative;}
+.or_a {  position: absolute; margin-top: -40px; * margin-top: -15px; left: 85px; *left: 82px;}
+.or_b { position: absolute; margin-top: -40px; * margin-top: -15px; left: 74px;}
+.touzi .touzi-box form select {height: 24px;}
+.btn {text-align: center; margin-bottom: 10px;}
+.touzi-but {width: 140px; height: 40px; text-align: center; line-height: 40px;  font-size: 18px; margin: 20px 20px 0 20px; *margin-top: 0; display: inline-block ;*zoom:1;*display:inline;}
+.touzi-but a {color: #fff; text-decoration: none;width: 140px; height: 40px; display: inline-block; background: #e62222; border-radius: 5px;}
+.touzi-but a:hover {color: #fff; text-decoration: none;}
+.pr7 { display: inline-block; *vertical-align:5px;}
+.touzi .touzi-box .mi {width: 302px; font-size: 12px;}
+.touzi .touzi-box .mi li {margin-top: 20px;}
+.touzi .touzi-box .mi li em {width: 152px; font-size: 14px; padding: 0;}
+.in {display: inline;}
+.qm {*vertical-align:5px;}
+.nice-select{
+	width: 60px;
+	background: url(../images/u1332.gif) no-repeat 50px 7px;
+	cursor: pointer;
+	position: relative;
+	*position:static; 
+}
+.nice-select .readonly{	
+	cursor: pointer;
+	border: 1px solid #bcbcbc; 
+	display: block;
+	width: 60px !important;
+	height: 28px;
+	line-height: 28px \9;
+	outline: 0;
+	background: none;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	font-size: 12px !important;
+	margin-bottom: 5px;
+}
+.nice-select ul{
+	width: 60px !important;
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	font-size: 12px !important;
+	/**margin-left: -140px;*/
+}
+.nice-select ul li{
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 0 10px;
+}
+.nice-select ul li.on{
+	background-color: #e0e0e0;
+}
+.select-text {
+	width: 200px;
+	display: inline-block;
+}
+.select-text span {
+	_vertical-align: 8px;
+}
+.layui-layer-shade {background: #f5f5f5;}
+.div_orr {color: #333;}
+.layui-layer-hui{height: 48px !important;border: 1px solid red!important;border-top: 5px solid red!important; color: #333!important;}

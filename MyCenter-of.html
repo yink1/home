@@ -1,0 +1,387 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/MyCenter.css" rel="stylesheet" type="text/css" />
+<link href="css/seven.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/layer.js"></script>
+<script type="text/javascript" src="js/cmp.js"></script>
+<title>我的订单_无限财经_上证综研</title>
+</head>
+<body>
+<!--topBar begin-->
+<div class="topBar">
+    <div class="mCon">
+        <div class="topcon">
+            <!-- 未登陆 -->
+            <!-- <div class="login">
+                <span><a href="javascript:;" class="loginBtn zhuce" id="btnal">注册</a></span>
+                <span><a href="javascript:;" class="loginBtn denglu" id="btnconf">登录</a></span>
+            </div> -->
+            <!-- 已登录 -->
+            <div class="login">
+                <div class="mine ">
+                    <em>欢迎您,</em>
+                    <div class="account xiala">
+                        <a href="MyCenter-of.html">13812331111&nbsp;</a>
+                        <ul class="hover-account">
+                            <li><a href="MyCenter-dt.html">账户管理</a><br /></li>
+                            <li><a href="MyCenter-answer.html">退出</a></li>
+                        </ul>
+                        
+                    </div> 
+                </div>
+                <div class="message"><a href="seven-text.html"><span>锦囊新消息<span class="red">（<em>1</em>）</span></span></a></div>
+                <div class="mine hover-wddd xiala">
+                    <a href="MyCenter-of.html" class="n">我的订单&nbsp;</a>
+                    <div class="hover-div">
+                        <!-- <div class="div-l">
+                            您有<span>1</span>笔订单未付款,<a class="red" href="wangshang.html">去付款</a>
+                        </div> -->
+                        <ul>
+                            <li><a class="background" href="#">趋势锦囊</a></li>
+                            <li><a class="background" href="">价值锦囊</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mine hover-wdtw xiala">
+                    <a href="MyCenter-ask.html" class="b">我的提问&nbsp;</a>
+                    <ul class="hover-ul">
+                        <li><a class="background" href="MyCenter-ask.html">已回复<span class="red">（1）</span></a><br /></li>
+                        <li><a class="background" href="MyCenter-answer.html">未回复</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="scan"><img class="erweima"style="display:none" src="images/wuxian.jpg" alt="无限财经二维码" /><a href="javascript:;" class="xiala">扫码关注微信，立即获取牛股&nbsp;</a></span>
+        </div>
+    </div>
+</div>
+<!--topBar end--> 
+<!--head begin-->
+<div class="head">
+    <div class="mCon">
+        <div class="hdcon">
+            <h1><span class="lg"><a href="index.html"><img src="images/logo1.png" alt="上证综研" /></a></span><span><img src="images/logo2.png" alt="无线财经" /></span></h1>
+            <div class="tel">021-80213456</div>
+        </div>
+    </div>
+</div>
+<!--menu begin-->
+<div class="menu"> 
+  <!--mCon begin-->
+    <div class="mCon">
+        <ul>
+            <li class="li-em"><a href="index.html"><em>首页</em></a></li>
+            <li><a href="live.html"><em>股市直播</em></a></li>
+            <li><a href="seven.html"><em>锦囊</em></a></li>
+            <li><a href="two.html"><em>题材聚焦</em></a></li>
+            <li><a href="four.html"><em>龙虎榜解读</em></a></li>
+            <li><a href="five.html"><em>盘中监控</em></a></li>
+            <li><a href="six.html"><em>融资揭秘</em></a></li>
+            <li><a href="aboutus7.html"><em>关于我们</em></a></li>
+        </ul>
+    </div>
+  <!--mCon end--> 
+</div>
+<div class="mainWrap clearfix">
+    <!-- 左边文本 -->
+    <div class="sdLft mt16">
+        <ul>
+            <li class="left-dingdan">
+                <a href="MyCenter-of.html" class="red"> <span class="dingdan-span dingdan"> </span> 我的订单</a>
+            </li>
+            <li class="left-tiwen">
+                <a href="MyCenter-ask.html"><span class="tiwen-span"></span> 我的提问</a>
+            </li>
+            <li class="left-ziliao ">
+                <a href="MyCenter-dt.html"><span class="ziliao-span"></span> 我的资料</a>
+            </li>
+            <li class="left-mima">
+                <a href="MyCenter-pw.html"><span class="mima-span"></span> 修改密码</a>
+            </li>
+
+        </ul>
+    </div>
+  <!-- 右边文本 -->
+    <div class="sdRgt mt16">
+    <!-- 我的订单 -->
+        <div class="right-center">
+            <h3>我的订单</h3>
+            <div class="box1">
+                <ul class="clearfix">
+                    <li class="li-left fl">订单提醒：待支付（0）</li>
+                    <li class="li-right fr">温馨提示：订单生成后7个工作日内未付款，系统将做自动取消订单。</li>
+                </ul>
+            </div>
+            <div>
+                <table class="status-bar" border="1">
+                    <tr>
+                        <td style="width:280px;">名称</td>
+                        <td style="width:270px;">服务时间</td>
+                        <td style="width:110px;">订单状态</td>
+                        <td style="width:110px;">操作</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="order-list">
+                <div>
+                    <ul class="clearfix">
+                        <li class="title-lf fl">订单号：<span>1089140402</span></li>
+                        <li class="title-ri fr">订单时间<span>2015-11-11 13:33:05 </span></li>
+                    </ul>
+                    <table border="1">
+                        <tr>
+                            <td style="width:280px;">
+                                <dl class="clearfix">
+                                    <dt class="fl"></dt>
+                                        <img src="images/trend.jpg" alt="" />
+                                    </dt>
+                                    <dd class="fr">
+                                        <div><a href="seven.html">财富风向标铂金版（半年版）</a></div>
+                                        <div class="red">价格：10,000元</div>
+                                        <div class="fr dd-ri"><a href="javascript:;" class="touzi-dian">查看合同</a></div>
+                                    </dd>
+                                </dl>
+                            </td>
+                            <td style="width:270px;">
+                                <div>开始时间：<span>--</span></div>
+                                <div>结束时间：<span>--</span></div>
+                            </td>
+                            <td style="width:110px;">待付款</td>
+                            <td style="width:110px;">
+                                <div><a href="wangshang.html" class="red">立即支付</a></div>
+                                <div><a href="javascript:;" class="quxiao remove-btn">取消订单</a></div>
+                                <div><a href="finish.html">订单详情</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="order-list">
+                <div>
+                    <ul class="clearfix">
+                        <li class="title-lf fl">订单号：<span>1089140402</span></li>
+                        <li class="title-ri fr">订单时间<span>2015-11-11 13:33:05 </span></li>
+                    </ul>
+                    <table border="1">
+                        <tr>
+                            <td style="width:280px;">
+                                <dl class="clearfix">
+                                    <dt class="fl"></dt>
+                                        <img src="images/trend.jpg" alt="" />
+                                    </dt>
+                                    <dd class="fr">
+                                        <div><a href="seven.html">财富风向标铂金版（半年版）</a></div>
+                                        <div class="red">价格：10,000元</div>
+                                        <div class="fr dd-ri"><a href="javascript:;" class="touzi-dian">查看合同</a></div>
+                                    </dd>
+                                </dl>
+                            </td>
+                            <td style="width:270px;">
+                                <div>开始时间：<span>2015-11-11</span></div>
+                                <div>结束时间：<span>2016-11-10</span></div>
+                            </td>
+                            <td style="width:110px;">部分支付</td>
+                            <td style="width:110px;">
+                                <div><a href="wangshang.html" class="red">继续支付</a></div>
+                                <div><a href="finish.html">订单详情</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="order-list">
+                <div>
+                    <ul class="clearfix">
+                        <li class="title-lf fl">订单号：<span>1089140402</span></li>
+                        <li class="title-ri fr">订单时间<span>2015-11-11 13:33:05 </span></li>
+                    </ul>
+                    <table border="1">
+                        <tr>
+                            <td style="width:280px;">
+                                <dl class="clearfix">
+                                    <dt class="fl"></dt>
+                                        <img src="images/trend.jpg" alt="" />
+                                    </dt>
+                                    <dd class="fr">
+                                        <div><a href="seven.html">财富风向标铂金版（半年版）</a></div>
+                                        <div class="red">价格：10,000元</div>
+                                        <div class="fr dd-ri"><a href="javascript:;" class="touzi-dian">查看合同</a></div>
+                                    </dd>
+                                </dl>
+                            </td>
+                            <td style="width:270px;">
+                                <div>开始时间：<span>2015-11-11</span></div>
+                                <div>结束时间：<span>2016-11-10</span></div>
+                            </td>
+                            <td style="width:110px;">权限已开通</td>
+                            <td style="width:110px;">
+                                <div><a href="seven-text.html">查看产品</a></div>
+                                <div><a href="finish.html">订单详情</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="order-list">
+                <div>
+                    <ul class="clearfix">
+                        <li class="title-lf fl">订单号：<span>1089140402</span></li>
+                        <li class="title-ri fr">订单时间<span>2015-11-11 13:33:05 </span></li>
+                    </ul>
+                    <table border="1">
+                        <tr>
+                            <td style="width:280px;">
+                                <dl class="clearfix">
+                                    <dt class="fl"></dt>
+                                        <img src="images/value.jpg" alt="" />
+                                    </dt>
+                                    <dd class="fr">
+                                        <div><a href="seven.html">财富风向标铂金版（半年版）</a></div>
+                                        <div class="red">价格：10,000元</div>
+                                        <div class="fr dd-ri"><a href="javascript:;" class="touzi-dian">查看合同</a></div>
+                                    </dd>
+                                </dl>
+                            </td>
+                            <td style="width:270px;">
+                                <div>开始时间：<span>2015-11-11</span></div>
+                                <div>结束时间：<span>2016-11-10</span></div>
+                            </td>
+                            <td style="width:110px;">权限到期</td>
+                            <td style="width:110px;">
+                                <div><a href="seven.html">重新购买</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="order-list">
+                <div>
+                    <ul class="clearfix">
+                        <li class="title-lf fl">订单号：<span>1089140402</span></li>
+                        <li class="title-ri fr">订单时间<span>2015-11-11 13:33:05 </span></li>
+                    </ul>
+                    <table border="1">
+                        <tr>
+                            <td style="width:280px;">
+                                <dl class="clearfix">
+                                    <dt class="fl"></dt>
+                                        <img src="images/value.jpg" alt="" />
+                                    </dt>
+                                    <dd class="fr">
+                                        <div><a href="seven.html">财富风向标铂金版（半年版）</a></div>
+                                        <div class="red">价格：10,000元</div>
+                                        <div class="fr dd-ri"><a href="javascript:;" class="touzi-dian">查看合同</a></div>
+                                    </dd>
+                                </dl>
+                            </td>
+                            <td style="width:270px;">
+                                <div>开始时间：<span>2015-11-11</span></div>
+                                <div>结束时间：<span>2016-11-10</span></div>
+                            </td>
+                            <td style="width:110px;">权限到期</td>
+                            <td style="width:110px;">
+                                <div>已下架</div>
+                                <div><a href="seven.html">选购其它产品</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="order-list">
+                <div>
+                    <ul class="clearfix">
+                        <li class="title-lf fl">订单号：<span>1089140402</span></li>
+                        <li class="title-ri fr">订单时间<span>2015-11-11 13:33:05 </span></li>
+                    </ul>
+                    <table border="1">
+                        <tr>
+                            <td style="width:280px;">
+                                <dl class="clearfix">
+                                    <dt class="fl"></dt>
+                                        <img src="images/value.jpg" alt="" />
+                                    </dt>
+                                    <dd class="fr">
+                                        <div><a href="seven.html">财富风向标铂金版（半年版）</a></div>
+                                        <div class="red">价格：10,000元</div>
+                                        <div class="fr dd-ri"><a href="javascript:;" class="touzi-dian">查看合同</a></div>
+                                    </dd>
+                                </dl>
+                            </td>
+                            <td style="width:270px;">
+                                <div>开始时间：<span>--</span></div>
+                                <div>结束时间：<span>--</span></div>
+                            </td>
+                            <td style="width:110px;">订单已失效</td>
+                            <td style="width:110px;">
+                                <div><a href="seven.html">重新购买</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- 分页 -->
+            <div class="cb pageGro">
+                <a href="##" class="pageUp">上一页</a>
+                <a href="##" class="on">1</a>
+                <a href="##">2</a>
+                <a href="##">3</a>
+                <a href="##">4</a>
+                <a href="##">5</a>
+                <a href="##" class="pageDown">下一页</a>
+            </div>
+            <!--END 分页--> 
+        </div>        
+    </div> 
+</div>
+
+<div id="footer">
+<!-- 页尾 -->
+    <div class="page">
+        <div class="center">
+            <!-- 页尾-上 -->
+            <div class="page-top">
+                <span>本站所载文章、数据仅供参考，使用前请核实，风险自负。</span>
+                <a class="cet" target="_blank" href="http://www.szzy888.com/help/fxjss">
+                    <img src="images/fengxian.png" alt="风险提示" />
+                </a>
+                <em>联系电话：021-50803180</em>
+                <span>证劵投资咨询业务资格证书：ZX0069 </span>
+                <a target="_blank" href="http://www.csrc.gov.cn/pub/zjhpublic/G00306205/201205/t20120517_210251.htm">[证监会查询]</a>
+                <a target="_blank" href="http://person.sac.net.cn/pages/registration/sac-publicity-finish.html?aoiId=199030">[证券业协会查询]</a>
+            </div>
+            <!-- 页尾-下 -->
+            <div class="page-bottom">
+                <p>
+                    公司地址：上海市浦东新区碧波路690号张江微电子港8号楼3楼301-B<em>投诉电话：021-38429864</em><span>Copyright 2006-2016 </span><a href="http://www.szzy888.com/">WWW.SZZY888.COM</a>&nbsp; <span>沪ICP备07015607号</span>
+                </p>
+            </div>
+        </div> 
+    </div>
+</div>
+<!-- 投资顾问服务协议弹窗 -->
+<div class="iframe" style="display:none;">
+    <iframe id="iframe" src="aletr.html" width="800" height="468" frameborder="0"></iframe>
+</div>
+<div id="cancel" style="display:none">
+    <div class="warning"><span class="warning-gif mr10"></span>确定要取消订单吗？</div>
+</div>
+<script>
+     $('.remove-btn').click(function(event) { //点击取消订单，弹出弹窗
+        layer.ready(function(){ 
+            layer.open({
+                type: 1,
+                title: false,
+                closeBtn:false,
+                btn:['确定','取消'],
+                area: ['230px', '120px'],
+                content: $('#cancel')            
+            });
+        });
+    });
+
+</script>
+</body>
+</html>

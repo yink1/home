@@ -1,0 +1,36 @@
+
+/*side*/
+.mainWrap { overflow: auto;}
+.sdLft{width:600px;float:left;}
+.sdRgt{width:340px;float:right;}
+/*左边文本*/
+/*路径*/
+.sdLft .index { color: #999; padding: 12px 0; border-bottom: 5px solid red;}
+.sdLft .index a { color: #999;}
+/*列表*/
+.sdLft .lft-ul li {border-bottom: 1px solid #bdbdbd; padding: 15px 10px;}
+.sdLft .lft-ul li:hover {background: #f5f5f5;}
+.sdLft .lft-ul li h3 {font-size: 18px;height: 26px; line-height: 26px; overflow: hidden;}
+.sdLft .lft-ul li p {line-height: 20px; font-size: 14px; height: 40px; overflow: hidden; font-size: 12px; margin-top: 5px;}
+.sdLft .lft-ul li p a { color: #666;}
+.sdLft .clearfix {color: #999; margin-top: 5px;}
+/*右边文本*/
+.sdRgt .right-box1 {padding: 15px 0 0 0; text-align: center;}
+.sdRgt .right-ul .marg {margin-bottom: 20px; }
+.sdRgt .border {border: 1px solid #bdbdbd; border-top: none;}
+/*右图*/
+.sdRgt .right-topImg{padding-top: 40px;}
+.right-img{ border: none;}
+/*右容器-1*/
+.textri {text-align: right;}
+.sp {color: red;margin-left: 10px; font-size:20px;}
+.sdRgt h2 {font-size: 20px; border-top: 5px solid red;padding-top: 5px;}
+.sdRgt .red {color: red;}
+.sdRgt .blue{color: #1e338e}
+.green {color: #093;}
+.p-ri {text-align: right; font-size: 12px; margin: 12px 20px 10px 0; color: #999;}
+/*右容器-2*/
+.sdRgt .box2 li ul li {width: 90px;}
+
+
+

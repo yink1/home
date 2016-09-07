@@ -1,0 +1,183 @@
+
+.mainWrap { overflow: auto;}
+.sdLft{width:200px;float:left;}
+.sdRgt{width:720px;float:right;}
+/*路径*/
+.index { color: #999; padding: 12px 0; border-bottom: 5px solid #e62222;}
+.index a {color: #999;}
+/*左边文本*/
+.sdLft {border: 1px solid #dbdbdb; background: #f5f5f5; padding-top: 20px;}
+.sdLft ul {font-size: 16px;}
+.sdLft ul li {height: 40px}
+.sdLft ul li a {height: 38px; line-height: 38px;  text-indent: 40px; *text-indent: 0px; width: 197px; display: inline-block; *zoom:1; *display:inline;}
+.sdLft ul li a span {*text-indent: 40px;}
+.sdLft ul li .on:hover { color: #e62223; text-decoration: none;}
+.click{ color: #e62223; text-decoration: none; background: #fff; border-left: 4px solid #e52122; border-bottom: 1px solid #dbdbdb;border-top: 1px solid #dbdbdb;}
+.click:hover {text-decoration: none;}
+/*右边文本*/
+/*用户须知*/
+.wz-content .wz-div {margin: 20px 0 10px 0;}
+.wz-content p { margin-left: 20px; line-height: 25px; margin-top: 15px;}
+/*风险评估表*/
+.fxpg dl {margin-left: 20px; margin-bottom: 20px;}
+.fxpg dl dt {font-weight: bold;}
+.fxpg dl dd {margin-left: 30px; line-height: 1.8;} 
+.right { text-align: right;}
+/*服务协议*/
+.fwxy td {font-size: 14px;text-align: left;vertical-align: top;line-height: 28px;}
+.basis {margin-top: 20px;}
+.content4 h3 {margin-top: 20px;}
+/*风险揭示书*/
+.content3 p {text-indent: 26px; margin-top: 15px;}
+/*常见问题*/
+.fagList dl { border-bottom: 1px dotted #d7d7d7; margin: 20px 0 0 0; padding-bottom: 10px;}
+.fagList dt {font-weight: bold;color: #122e67;}
+.fagList dd { margin-top: 8px; line-height: 26px;color: #666666;}
+.fagList dt,.fagList dd {position: relative;}
+.fagList dt p,.fagList dd p { padding-left: 30px; margin: 0;}
+.fagList dt span { background: url(../images/all.png) no-repeat 0 -392px; margin-top: 3px; *margin-top: 0px; width: 20px;height: 19px;display: inline-block; position: absolute; left: 0;top: 0;line-height: 0; font-size: 0; overflow: hidden;color: transparent;}
+.fagList dd span {background: url(../images/all.png) no-repeat 0 -426px;width: 20px; height: 19px; display: inline-block; position: absolute; left: 0; top: 0; line-height: 0;font-size: 0; overflow: hidden; color: transparent;}
+/*特别声明*/
+.content6 {text-indent: 24px;}
+/*关于我们*/
+.sdRgt .right-title {height: 100px; text-align: center; border-bottom: 1px solid #bdbdbd;}
+.sdRgt .right-title h3 {font-size: 20px; padding-top: 25px;}
+.sdRgt .right-content { margin-top: 20px;}
+.sdRgt .right-content p{ line-height: 1.8; text-indent: 26px; margin-bottom: 15px;} 
+/*人员公示*/
+.content8 {height: 1000px; *height: 1020px;}
+.sdRgt .menber-title h3 {color: #333; background: #fbfbfb; text-align: center; font-size: 20px; font-weight: normal; border-top: 1px solid #dbdbdb;border-bottom: 1px solid #dbdbdb; margin-top: 40px; padding: 5px 0;}
+.menber-content ul li {margin: 15px 0;overflow: hidden;width: 236px; display: inline-block; *zoom:1; *display:inline;}
+.menber-content dd { float: left;}
+.menber-content dd img {width: 56px; height: 67px;}
+.menber-content dt {line-height: 24px; padding-left: 68px;}
+.sdRgt .menber-title table { border: 1px solid #e7e7e7;margin-top: 20px; width: 100%; border-collapse: collapse;}
+.sdRgt .menber-title tr {height: 37px;}
+.sdRgt .menber-title th { background: #f4f4f4;padding: 8px 0;font-weight: bold;}
+.sdRgt .menber-title th, .sdRgt .menber-title td {text-align: center;padding: 2px 0; border: 1px solid #e7e7e7;}
+.sdRgt .menber-title .fwmd,.sdRgt .menber-title .fwmd1,.sdRgt .menber-title .fwmd2,.sdRgt .menber-title .fwmd3 { position: relative;}
+.sdRgt .menber-title .name {background: url(../images/icon-open.gif) no-repeat right 0 transparent;color: #0C478D;cursor: pointer; height: 16px; line-height: 16px;margin: 0 auto; padding-right: 20px; width: 60px;}
+.sdRgt .menber-title .pic ,.pic1,.pic2,.pic3{ display: none; left: 120px;  position: absolute; top: -25px;}
+.shwo {display: block!important;}
+.explain {margin-top: 15px; margin-left: 10px;}
+.explain ul li{ line-height: 25px; margin-left: 10px;}
+.red { color: #BB2420; height: 30px;}
+/* 收款公示 */
+.content9 {height: 690px;}
+.payment {height: 190px;}
+.noindent { margin-top: 20px;font-size: 12px;}
+.noindent h4 {font-weight: normal;  margin-top: 15px;}
+.noindent p {margin-left: 10px; line-height: 25px;}
+.mode {font-size: 14px; font-weight: normal; }
+.company {text-align: right; margin-top: 40px; font-size: 16px;}
+/*免责声明*/
+.mzsm h4 {margin-bottom: 10px;}
+.mzsm p { margin: 0 0 15px 20px;line-height: 1.8;}
+.mzsm p span {margin-left: 20px; }
+/*上海总公司*/
+.lianxi {margin-top: 20px;}
+.lianxi p {margin-bottom: 10px;}
+/*北京分公司*/
+.content12 {/*margin-left: 20px; */margin-top: 30px;}
+.iw_poi_title {color:#CC5522;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+/*更多产品*/
+.right-nav {margin-top: 20px; font-size: 14px;}
+.right-nav li {cursor:pointer; color: #666; background: url(../images/graynav.jpg) no-repeat; height: 57px; width:107px; margin-left: 8px; *margin-left: 11px; display: inline-block; *zoom:1; *display:inline; text-align: center;}
+.right-nav li a {display: inline-block; height: 45px; *height: 40px; width: 107px; padding-top: 12px; *padding-top: 13px;}
+.right-nav li a:hover {text-decoration: none;}
+.fff a{color: #fff;}
+.yellow {background: url(../images/yellownav.jpg) no-repeat !important; color: #333; }
+.rednav {background: url(../images/rednav.jpg) no-repeat !important; }
+/*财富风向标 黄金版*/
+.jpg-box1,.jpg-box2,.jpg-box3,.jpg-box4,.jpg-box5,.jpg-box6 {border: 1px solid #dbdbdb;}
+.jpg-box1 .jpg1 {background: url(../images/jpg1.jpg) no-repeat 50% 50%; width: 718px; height: 180px;}
+.jpg-box1 .jpg2 {background: url(../images/jpg2.jpg) no-repeat 50% 50%; width: 718px; height: 191px;}
+.jpg-box1 .jpg3 {background: url(../images/jpg3.jpg) no-repeat 50% 50%; width: 718px; height: 167px;}
+.jpg-box1 .jpg4 {background: url(../images/jpg4.jpg) no-repeat 50% 50%; width: 718px; height: 175px;}
+.jpg-box1 .jpg5 {background: url(../images/jpg5.jpg) no-repeat 50% 50%; width: 718px; height: 153px;}
+.jpg-box1 .jpg6 {background: url(../images/jpg6.jpg) no-repeat 50% 50%; width: 718px; height: 168px;}
+.jpg-box1 .jpg7 {background: url(../images/jpg7.jpg) no-repeat 50% 50%; width: 718px; height: 176px;}
+.jpg-box1 .jpg8 {background: url(../images/jpg8.jpg) no-repeat 50% 50%; width: 718px; height: 187px;}
+.jpg-box1 .jpg9 {background: url(../images/jpg9.jpg) no-repeat 50% 50%; width: 718px; height: 100px;}
+.jpg-box1 .jpg10 {background: url(../images/jpg10.jpg) no-repeat 50% 50%; width: 718px; height: 148px;}
+.jpg-box1 .jpg11 {background: url(../images/jpg12.jpg) no-repeat 50% 50%; width: 718px; height: 79px;}
+.fs50 {color: #d7b323; font-size: 50px; _font-size: 40px; text-align: center;}
+.fs23 {color: #d7b323; font-size: 23px; text-align: center;}
+.fs39 {color: #fff; font-size: 39px; text-align: center; margin-left: 70px; line-height: 79px;}
+/*财富风向标 铂金版*/
+.jpg-box2 .jpg2-1 {background: url(../images/jpg2-1.jpg) no-repeat 50% 50%; width: 718px; height: 180px;}
+.jpg-box2 .jpg2-2 {background: url(../images/jpg2-2.jpg) no-repeat 50% 50%; width: 718px; height: 208px;}
+.jpg-box2 .jpg2-3 {background: url(../images/jpg2-3.jpg) no-repeat 50% 50%; width: 718px; height: 175px;}
+.jpg-box2 .jpg2-4 {background: url(../images/jpg2-4.jpg) no-repeat 50% 50%; width: 718px; height: 195px;}
+.jpg-box2 .jpg2-5 {background: url(../images/jpg2-5.jpg) no-repeat 50% 50%; width: 718px; height: 191px;}
+.jpg-box2 .jpg2-6 {background: url(../images/jpg2-6.jpg) no-repeat 50% 50%; width: 718px; height: 167px;}
+.jpg-box2 .jpg2-7 {background: url(../images/jpg2-7.jpg) no-repeat 50% 50%; width: 718px; height: 100px;}
+.jpg-box2 .jpg2-8 {background: url(../images/jpg2-8.jpg) no-repeat 50% 50%; width: 718px; height: 173px;}
+.jpg-box2 .jpg2-9 {background: url(../images/jpg2-9.jpg) no-repeat 50% 50%; width: 718px; height: 138px;}
+.jpg-box2 .jpg2-10 {background: url(../images/jpg2-10.jpg) no-repeat 50% 50%; width: 718px; height: 126px;}
+.jpg-box2 .jpg2-11 {background: url(../images/jpg12.jpg) no-repeat 50% 50%; width: 718px; height: 79px;}
+.fs14 {font-size: 14px; border:1px solid #d7b323; width: 600px; margin: 0 auto; color: #fff; height: 40px; padding-top: 5px;}
+.fs14 p {width: 580px; margin-left: 10px; color: #d7b323;}
+/*财富风向标 钻石版*/
+.jpg-box3 .jpg3-1 {background: url(../images/jpg3-1.jpg) no-repeat 50% 50%; width: 718px; height: 176px;}
+.jpg-box3 .jpg3-2 {background: url(../images/jpg3-2.jpg) no-repeat 50% 50%; width: 718px; height: 147px;}
+.jpg-box3 .jpg3-3 {background: url(../images/jpg3-3.jpg) no-repeat 50% 50%; width: 718px; height: 152px;}
+.jpg-box3 .jpg3-4 {background: url(../images/jpg3-4.jpg) no-repeat 50% 50%; width: 718px; height: 106px;}
+.jpg-box3 .jpg3-5 {background: url(../images/jpg3-5.jpg) no-repeat 50% 50%; width: 718px; height: 226px;}
+.jpg-box3 .jpg3-6 {background: url(../images/jpg3-6.jpg) no-repeat 50% 50%; width: 718px; height: 193px;}
+.jpg-box3 .jpg3-7 {background: url(../images/jpg3-7.jpg) no-repeat 50% 50%; width: 718px; height: 196px;}
+.jpg-box3 .jpg3-8 {background: url(../images/jpg3-8.jpg) no-repeat 50% 50%; width: 718px; height: 161px;}
+.jpg-box3 .jpg3-9 {background: url(../images/jpg3-9.jpg) no-repeat 50% 50%; width: 718px; height: 236px;}
+.jpg-box3 .jpg3-10 {background: url(../images/jpg3-10.jpg) no-repeat 50% 50%; width: 718px; height: 162px;}
+.jpg-box3 .jpg3-11 {background: url(../images/jpg3-11.jpg) no-repeat 50% 50%; width: 718px; height: 195px;}
+.jpg-box3 .jpg3-12 {background: url(../images/jpg3-12.jpg) no-repeat 50% 50%; width: 718px; height: 182px;}
+.jpg-box3 .jpg3-13 {background: url(../images/jpg3-13.jpg) no-repeat 50% 50%; width: 718px; height: 109px;}
+.jpg-box3 .jpg3-14 {background: url(../images/jpg3-14.jpg) no-repeat 50% 50%; width: 718px; height: 146px;}
+.jpg-box3 .jpg3-15 {background: url(../images/jpg12.jpg) no-repeat 50% 50%; width: 718px; height: 79px;}
+/*财富大赢家 启明星*/
+.jpg-box4 .jpg4-1 {background: url(../images/jpg4-1.jpg) no-repeat 50% 50%; width: 718px; height: 178px;}
+.jpg-box4 .jpg4-2 {background: url(../images/jpg4-2.jpg) no-repeat 50% 50%; width: 718px; height: 181px;}
+.jpg-box4 .jpg4-3 {background: url(../images/jpg4-3.jpg) no-repeat 50% 50%; width: 718px; height: 198px;}
+.jpg-box4 .jpg4-4 {background: url(../images/jpg4-4.jpg) no-repeat 50% 50%; width: 718px; height: 180px;}
+.jpg-box4 .jpg4-5 {background: url(../images/jpg4-5.jpg) no-repeat 50% 50%; width: 718px; height: 134px;}
+.jpg-box4 .jpg4-6 {background: url(../images/jpg4-6.jpg) no-repeat 50% 50%; width: 718px; height: 193px;}
+.jpg-box4 .jpg4-7 {background: url(../images/jpg4-7.jpg) no-repeat 50% 50%; width: 718px; height: 152px;}
+.jpg-box4 .jpg4-8 {background: url(../images/jpg4-8.jpg) no-repeat 50% 50%; width: 718px; height: 240px;}
+.jpg-box4 .jpg4-9 {background: url(../images/jpg4-9.jpg) no-repeat 50% 50%; width: 718px; height: 201px;}
+.jpg-box4 .jpg4-10 {background: url(../images/jpg4-10.jpg) no-repeat 50% 50%; width: 718px; height: 136px;}
+.jpg-box4 .jpg4-11 {background: url(../images/jpg4-11.jpg) no-repeat 50% 50%; width: 718px; height: 202px;}
+.jpg-box4 .jpg4-12 {background: url(../images/jpg4-12.jpg) no-repeat 50% 50%; width: 718px; height: 179px;}
+.jpg-box4 .jpg4-13 {background: url(../images/jpg4-13.jpg) no-repeat 50% 50%; width: 718px; height: 137px;}
+.jpg-box4 .jpg4-14 {background: url(../images/jpg4-14.jpg) no-repeat 50% 50%; width: 718px; height: 120px;}
+.jpg-box4 .jpg4-15 {background: url(../images/jpg12.jpg) no-repeat 50% 50%; width: 718px; height: 79px;}
+.fs18 {font-size: 18px;_font-size: 16px;color: #d7b323; width: 520px; margin: 0 0 0 120px;}
+/*财富大赢家 开阳星*/
+.jpg-box5 .jpg5-1 {background: url(../images/jpg5-1.jpg) no-repeat 50% 50%; width: 718px; height: 182px;}
+.jpg-box5 .jpg5-2 {background: url(../images/jpg5-2.jpg) no-repeat 50% 50%; width: 718px; height: 179px;}
+.jpg-box5 .jpg5-3 {background: url(../images/jpg5-3.jpg) no-repeat 50% 50%; width: 718px; height: 205px;}
+.jpg-box5 .jpg5-4 {background: url(../images/jpg5-4.jpg) no-repeat 50% 50%; width: 718px; height: 172px;}
+.jpg-box5 .jpg5-5 {background: url(../images/jpg5-5.jpg) no-repeat 50% 50%; width: 718px; height: 136px;}
+.jpg-box5 .jpg5-6 {background: url(../images/jpg5-6.jpg) no-repeat 50% 50%; width: 718px; height: 168px;}
+.jpg-box5 .jpg5-7 {background: url(../images/jpg5-7.jpg) no-repeat 50% 50%; width: 718px; height: 173px;}
+.jpg-box5 .jpg5-8 {background: url(../images/jpg5-8.jpg) no-repeat 50% 50%; width: 718px; height: 218px;}
+.jpg-box5 .jpg5-9 {background: url(../images/jpg5-9.jpg) no-repeat 50% 50%; width: 718px; height: 196px;}
+.jpg-box5 .jpg5-10 {background: url(../images/jpg5-10.jpg) no-repeat 50% 50%; width: 718px; height: 203px;}
+.jpg-box5 .jpg5-11 {background: url(../images/jpg5-11.jpg) no-repeat 50% 50%; width: 718px; height: 160px;}
+.jpg-box5 .jpg5-12 {background: url(../images/jpg5-12.jpg) no-repeat 50% 50%; width: 718px; height: 180px;}
+.jpg-box5 .jpg5-13 {background: url(../images/jpg5-13.jpg) no-repeat 50% 50%; width: 718px; height: 134px;}
+.jpg-box5 .jpg5-14 {background: url(../images/jpg5-14.jpg) no-repeat 50% 50%; width: 718px; height: 123px;}
+.jpg-box5 .jpg5-15 {background: url(../images/jpg12.jpg) no-repeat 50% 50%; width: 718px; height: 79px;}
+/*财富大赢家 私人订制*/
+.jpg-box6 .jpg6-1 {background: url(../images/jpg6-1.jpg) no-repeat 50% 50%; width: 718px; height: 180px;}
+.jpg-box6 .jpg6-2 {background: url(../images/jpg6-2.jpg) no-repeat 50% 50%; width: 718px; height: 144px;}
+.jpg-box6 .jpg6-3 {background: url(../images/jpg6-3.jpg) no-repeat 50% 50%; width: 718px; height: 165px;}
+.jpg-box6 .jpg6-4 {background: url(../images/jpg6-4.jpg) no-repeat 50% 50%; width: 718px; height: 145px;}
+.jpg-box6 .jpg6-5 {background: url(../images/jpg6-5.jpg) no-repeat 50% 50%; width: 718px; height: 125px;}
+.jpg-box6 .jpg6-6 {background: url(../images/jpg6-6.jpg) no-repeat 50% 50%; width: 718px; height: 201px;}
+.jpg-box6 .jpg6-7 {background: url(../images/jpg6-7.jpg) no-repeat 50% 50%; width: 718px; height: 182px;}
+.jpg-box6 .jpg6-8 {background: url(../images/jpg6-8.jpg) no-repeat 50% 50%; width: 718px; height: 128px;}
+.jpg-box6 .jpg6-9 {background: url(../images/jpg6-9.jpg) no-repeat 50% 50%; width: 718px; height: 128px;}
+.jpg-box6 .jpg6-10 {background: url(../images/jpg12.jpg) no-repeat 50% 50%; width: 718px; height: 79px;}
+.fs58 {color: #d7b323; font-size: 58px; _font-size: 50px; text-align: center;}
+

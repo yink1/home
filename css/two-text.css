@@ -1,0 +1,56 @@
+
+/*side*/
+.mainWrap { overflow: auto;}
+.sdLft{width:600px;float:left; overflow: hidden;}
+.sdRgt{width:340px;float:right;}
+/*左边文本*/
+/*路径*/
+.sdLft .index { color: #999; padding: 12px 0; border-bottom: 5px solid #e62222;}
+.sdLft .index a { color: #999;}
+/*正文*/
+.sdLft h2 {font-size: 20px; font-weight: normal; text-align: center; padding: 10px 0 0 0;}
+.sdLft .left-ul { text-align: center; overflow: auto; margin-left: 5px; margin-bottom: 15px;}
+.sdLft ul li {display: inline;}
+.sdLft ul li span { color: #999;}
+.sdLft ul li ul li a{width: 20px; height: 20px; float: left; margin-left: 5px; display: block;}
+.sdLft ul li ul .qq a{background: url(../images/logo3.png) no-repeat; width: 20px; height: 20px; display: block;}
+.sdLft ul li ul .xl a{background: url(../images/logo3.png) -21px 0 no-repeat; width: 20px; height: 20px; }
+.sdLft ul li ul .wb a{background: url(../images/logo3.png) -45px 0 no-repeat; width: 20px; height: 20px; }
+.sdLft ul li ul .rr a{background: url(../images/logo3.png) -70px 0 no-repeat; width: 20px; height: 20px; }
+.sdLft ul li ul .wx a{background: url(../images/logo3.png) -91px 0 no-repeat; width: 20px; height: 20px; }
+.sdLft ul li ul .jh a{background: url(../images/logo3.png) -118px 0 no-repeat; width: 20px; height: 20px; }
+.sdLft .top-img {margin: 10px 0 20px 0;}
+.sdLft .left-box {font-size: 14px; color: #333;}
+.sdLft .left-box img {width: 600px}
+.sdLft .left-box p {line-height: 28px; font-family: none; }
+/*左边-底部*/
+.sdLft .left-bottom { border: 1px solid red; margin-top: 20px;}
+.sdLft .left-bottom .bottom-box {margin: 20px;}
+.sdLft .left-bottom h3 {background: url(../images/h3-red.png) no-repeat; width: 240px; height: 40px; color: #fff; line-height: 40px; text-align: center; font-size: 24px; font-weight: normal;}
+.sdLft .left-bottom ul {text-align: center;}
+.sdLft .left-bottom ul li h4 {font-size:24px; color: red; font-weight: normal; }
+.sdLft .left-bottom h5 {margin: 0;}
+.sdLft .left-bottom h5 {font-size: 16px; color: #999; font-weight: normal;}
+.sdLft .left-bottom p { font-size: 14px; margin: 10px 0; line-height: 1.8;}
+.sdLft .left-bottom ul li p a {color: red;}
+/*右边文本*/
+.sdRgt .right-ul .marg {margin-bottom: 20px; }
+.sdRgt .border {border: 1px solid #bdbdbd; }
+/*右图*/
+.sdRgt .right-topImg{padding-top: 40px;}
+.right-img{ border: none;}
+/*右容器-1*/
+.textri {text-align: right;}
+.sp {color: red;margin-left: 10px; font-size:20px;}
+.sdRgt h2 {font-size: 20px; border-top: 5px solid red;padding-top: 5px;}
+.sdRgt .right-box1 {padding: 15px 0 0 0; text-align: center; color: #333;}
+.sdRgt .bagd-1 { width: 110px!important; height: 30px; overflow: hidden; text-align: left; margin-left: 10px;}
+.sdRgt .right-box1 li ul li a:hover {color: red;}
+.sdRgt .red {color: red;}
+.sdRgt .blue {color: #1e338e;}
+.green {color: #093;}
+.p-ri {text-align: right; font-size: 12px; margin: 12px 20px 10px 0; color: #999;}
+.p-ri {text-align: right; font-size: 12px; margin: 12px 20px 10px 0; color: #999;}
+/*右容器-2*/
+.sdRgt .right-box2 {padding: 15px;}
+.sdRgt .right-box2 li {background: url(../images/triangle.png) no-repeat left center ;line-height: 25px;text-indent: 20px; height: 25px; overflow: hidden;}
